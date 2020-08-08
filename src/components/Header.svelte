@@ -1,10 +1,11 @@
 <script>
   export let segment;
+  // Abre el dropdown menu al hacer hover
 </script>
 
 <style>
   img {
-    height: 90px;
+    height: 100px;
   }
   .text-transparent {
     color: transparent;
@@ -12,17 +13,17 @@
 </style>
 
 <!-- <header> -->
-<div class="row pt-2 px-2">
-  <div class="col text-md-center">
+<div class="row pt-2 px-2 bg-dark">
+  <div class="col text-md-center pb-3">
     <a href="#">
-      <img src="images/logo-bellabike.png" alt="" />
+      <img src="images/logo-naranjo.png" alt="" />
     </a>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
   <a class="navbar-brand" href="#" />
   <button
-    class="navbar-toggler"
+    class="navbar-toggler "
     type="button"
     data-toggle="collapse"
     data-target="#navbarSupportedContent"
@@ -47,22 +48,29 @@
         <a class="nav-link" href="#">Arriendos</a>
       </li>
       <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false">
-          Tours
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Santiago Histórico</a>
-          <a class="dropdown-item" href="#">Santiago Moderno</a>
-          <a class="dropdown-item" href="#">Cerro San Cristobal</a>
+        <div class="btn-group">
+          <a
+            rel="prefecth"
+            href="tours"
+            class={segment === 'tours' ? 'btn btn-link nav-link active' : 'btn btn-link nav-link'}>
+            Tours
+          </a>
+          <a
+            href="Tours"
+            class="btn btn-link nav-link dropdown-toggle dropdown-toggle-split"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            <span class="sr-only">Tours</span>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Santiago Histórico</a>
+            <a class="dropdown-item" href="#">Santiago Moderno</a>
+            <a class="dropdown-item" href="#">Cerro San Cristobal</a>
+          </div>
         </div>
       </li>
+
       <li class="nav-item">
         <a
           rel="prefecth"

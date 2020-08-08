@@ -5,7 +5,10 @@
 </script>
 
 <style>
-
+  :global(.btn-bellabike) {
+    background-color: rgb(237, 111, 26);
+    color: white;
+  }
 </style>
 
 <Header {segment} />

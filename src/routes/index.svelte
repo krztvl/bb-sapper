@@ -13,6 +13,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
   }
+  #carousel span {
+    background-color: rgb(40, 41, 91, 0.6);
+  }
 </style>
 
 <svelte:head>
@@ -32,19 +35,19 @@
     <div class="overlay-container h-100">
       <div class="row align-items-center justify-content-center h-100">
         <div class="col-md-6">
-          <h1>Disfruta de Santiago en bicicleta</h1>
-          <p class="d-none d-md-block">
-            ¿De visita en la ciudad? Vives muy lejos como para llegar en
-            bicicleta al centro. Entonces Bellabike es lo que necesitas. Los
-            parques y ciclovías de la ciudad te esperan.
+          <h1>
+            <span>Disfruta de Santiago en bicicleta</span>
+          </h1>
+          <p class="d-none d-md-block text-white">
+            <span>
+              ¿De visita en la ciudad? Vives muy lejos como para llegar en
+              bicicleta al centro. Entonces Bellabike es lo que necesitas. Los
+              parques y ciclovías de la ciudad te esperan.
+            </span>
           </p>
-          <a href="#" class="btn btn-outline-light">Quiero hacer tour</a>
-          <button
-            type="buttom"
-            class="btn btn-platzi"
-            data-toggle="modal"
-            data-target="#modalCompra">
-            Quiero arrendar una bici
+          <a href="tours" class="btn btn-bellabike">Conocer los tours</a>
+          <button type="buttom" class="btn btn-bellabike">
+            Arrendar una bici
           </button>
         </div>
       </div>
