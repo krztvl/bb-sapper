@@ -33,7 +33,7 @@
   </div>
   <div class="overlay carousel-caption">
     <div class="overlay-container h-100">
-      <div class="row align-items-center justify-content-center h-100">
+      <div class="row align-items-center justify-content-center h-100 w-100">
         <div class="col-md-6">
           <h1>
             <span>Disfruta de Santiago en bicicleta</span>
@@ -45,15 +45,16 @@
               parques y ciclovías de la ciudad te esperan.
             </span>
           </p>
-          <a href="tours" class="btn btn-bellabike">Conocer los tours</a>
-          <button type="buttom" class="btn btn-bellabike">
-            Arrendar una bici
-          </button>
+          <div class="container">
+            <a href="tours" class="btn btn-bellabike">Conocer los tours</a>
+            <a href="nosotros" class="btn btn-bellabike">Arrendar una bici</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <p>
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil pariatur
   ratione impedit aut assumenda ut accusamus facilis architecto vel obcaecati

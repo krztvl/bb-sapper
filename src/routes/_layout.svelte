@@ -5,9 +5,9 @@
 </script>
 
 <style>
-  :global(.btn-bellabike) {
-    background-color: rgb(237, 111, 26);
-    color: white;
+  main {
+    padding: 0 auto;
+    margin: 0 auto;
   }
 </style>
 

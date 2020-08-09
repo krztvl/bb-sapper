@@ -13,11 +13,13 @@
 </style>
 
 <!-- <header> -->
-<div class="row pt-2 px-2 bg-dark">
-  <div class="col text-md-center pb-3">
-    <a href="#">
-      <img src="images/logo-naranjo.png" alt="" />
-    </a>
+<div class="container-fluid">
+  <div class="row pt-2 px-2 bg-dark">
+    <div class="col text-md-center pb-3">
+      <a href="#">
+        <img src="images/logo-naranjo.png" alt="" />
+      </a>
+    </div>
   </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
